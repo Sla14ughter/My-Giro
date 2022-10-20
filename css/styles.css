@@ -156,15 +156,16 @@ nav {
     margin-left: 25px;
 }
 .mailingbg > .container > form > input[type="text"] {
-    width: 228px;
+    width: 226px;
     height: 40px;
     background-color: #ffa019;
     padding-left: 19px;
+    font-size: 14px;
 }
 .mailingbg > .container > form > input[type="submit"] {
     background-color: #ffffff;
     padding: 0px;
-    width: 230px;
+    width: 228px;
     height: 42px;
     margin-left: 30px;
     font-weight: 700;
