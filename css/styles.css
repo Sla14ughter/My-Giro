@@ -1,7 +1,6 @@
 body {
     font-family: "Segoe UI";
-    background: url(../img/bg.jpg) no-repeat center top / cover;
-    height: 1078px;
+    min-width: 1140px;
 }
 nav {
     margin-left: auto;
@@ -10,14 +9,11 @@ nav {
     max-width: 1140px;
     margin: auto;
 }
-.navbar {
-    background-color: #ffffff;
-}
 .upperbox {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .header {
-    height: 74px;
+    height: 62px;
     align-items: center;
     display: flex;
 }
@@ -55,29 +51,36 @@ nav {
 .menu > nav > ul > li {
     margin-left: 40px;
 }
-.black {
-    background-color: rgba(0, 0, 0, 0.4);
-    padding-top: 320px;
-    padding-bottom: 310px;
+.mainheader-bg {
+    height: 751px;
+    background: url(../img/bg.jpg) no-repeat center top;
+    background-color: white;
 }
 .mainheader {
     color: #ffffff;
     text-align: center;
-    height: 178px;
-    width: 666px;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
     margin: auto;
+    max-width: 1920px;
+    height: 751px;
+    vertical-align: center;
+}
+.mainheader > h1 {
+    padding-top: 287px;
+}
+.mainheader > span {
+    width: 666px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: lighter;
+    margin: 0px;
 }
 .mainheader > h1 {
     font-size: 56px;
     font-weight: lighter;
     margin: 0px;
     margin-bottom: 5px;
-}
-.mainheader > p {
-    font-size: 20px;
-    line-height: 30px;
-    font-weight: lighter;
-    margin: 0px;
 }
 .mainheader > button {
     width: 144px;
@@ -87,15 +90,12 @@ nav {
     border: #ffffff;
     font-size: 12px;
     font-weight: bold;
-    margin-top: 40px;
-}
-.advantagesbg {
-    background-color: #ffffff;
-    padding-top: 132px;
+    margin-top: 30px;
 }
 .advheader {
     display: flex;
     align-items: center;
+    padding-top: 132px;
 }
 .title {
     margin: 0px;
@@ -117,6 +117,7 @@ nav {
 }
 .aboutus {
     margin-top: 132px;
+    margin-bottom: 89px;
     font-weight: lighter;
     font-size: 20px;
 }
@@ -130,4 +131,44 @@ nav {
     background-color: #ffa019;
     height: 94px;
     margin-top: 89px;
+}
+.mailingbg > .container > form {
+    display: flex;
+    align-items: center;
+}
+.mailingbg > .container > form > label {
+    color: #ffffff;
+    width: 284px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    margin-top: 28px;
+}
+.mailingbg > .container > form > input {
+    border: 1px solid #ffffff;
+    padding: 0px;
+    margin-top: 28px;
+}
+.mailingbg > .container > form > input[name="name"] {
+    margin-left: auto;
+}
+.mailingbg > .container > form > input[name="email"] {
+    margin-left: 25px;
+}
+.mailingbg > .container > form > input[type="text"] {
+    width: 228px;
+    height: 40px;
+    background-color: #ffa019;
+    padding-left: 19px;
+}
+.mailingbg > .container > form > input[type="submit"] {
+    background-color: #ffffff;
+    padding: 0px;
+    width: 230px;
+    height: 42px;
+    margin-left: 30px;
+    font-weight: 700;
+}
+.mailingbg > .container > form > input::placeholder {
+    color: #ffffff;
 }
