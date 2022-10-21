@@ -5,9 +5,18 @@ body {
 nav {
     margin-left: auto;
 }
+a {
+    text-decoration: none;
+    color: black;
+}
 .container {
     max-width: 1140px;
     margin: auto;
+}
+.text {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: lighter;
 }
 .upperbox {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -71,9 +80,6 @@ nav {
 }
 .mainheader > span {
     width: 666px;
-    font-size: 20px;
-    line-height: 30px;
-    font-weight: lighter;
     margin: 0px;
 }
 .mainheader > h1 {
@@ -95,7 +101,7 @@ nav {
 .advheader {
     display: flex;
     align-items: center;
-    padding-top: 132px;
+    margin-top: 132px;
 }
 .title {
     margin: 0px;
@@ -112,14 +118,10 @@ nav {
 .adv-item {
     margin: auto;
     text-align: center;
-    font-size: 20px;
-    font-weight: lighter;
 }
 .aboutus {
     margin-top: 132px;
     margin-bottom: 89px;
-    font-weight: lighter;
-    font-size: 20px;
 }
 .aboutus > h1 {
     margin-bottom: 60px;
@@ -172,4 +174,23 @@ nav {
 }
 .mailingbg > .container > form > input::placeholder {
     color: #ffffff;
+}
+.features {
+    margin-top: 100px;
+}
+.features-list > ul {
+    list-style-type: none;
+    margin-right: auto;
+    padding: 0px;
+    margin-top: 33px;
+    margin-bottom: 37px;
+}
+.features-list {
+    display: flex;
+}
+.minus::before {
+    content: "– ";
+}
+.plus::before {
+    content: "+ ";
 }
