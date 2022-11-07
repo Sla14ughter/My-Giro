@@ -1,6 +1,6 @@
 body {
     font-family: "Segoe UI";
-    min-width: 1800px;
+    min-width: 960px;
 }
 nav {
     margin-left: auto;
@@ -431,4 +431,89 @@ footer {
 }
 .ul-item {
     line-height: 30px;
+}
+@media (max-width: 1550px) {
+    .brands > ul {
+        font-size: 30px;
+    }
+}
+@media (max-width: 1250px) {
+    .container {
+        max-width: 960px;
+    }
+    .mailingbg > .container > form > label {
+        font-size: 16px;
+    }
+    .catalog-item {
+        width: 210px;
+        height: 302px;
+    }
+    .number-one {
+        background-image: url(../img/1s.jpg);
+    }
+    .number-two {
+        background-image: url(../img/2s.jpg);
+    }
+    .number-three {
+        background-image: url(../img/3s.jpg);
+    }
+    .number-four {
+        background-image: url(../img/4s.jpg);
+    }
+    .segway {
+        width: 54.4px;
+    }
+    .gyroscooter {
+        width: 73.6px;
+    }
+    .electricscooter {
+        width: 102.4px;
+    }
+    .label {
+        font-size: 11.2px;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        padding-top: 5.6px;
+        padding-bottom: 5.6px;
+        padding-left: 12.8px;
+    }
+    .name {
+        font-size: 12.8px;
+        line-height: 16px;
+        margin-top: 172.8px;
+        margin-left: 16.8px;
+        margin-right: 40px;
+        height: 32px;
+    }
+    .price {
+        font-size: 16px;
+        margin-top: 19.2px;
+        margin-left: 16.8px;
+    }
+    .article {
+        width: 210px;
+        height: 210px;
+    }
+    .article-title {
+        font-size: 14.4px;
+        line-height: 24px;
+        width: 210px;
+        height: 126.4px;
+        padding-top: 84px;
+    }
+    .one {
+        background-image: url(../img/one-s.jpg);
+    }
+    .two {
+        background-image: url(../img/two-s.jpg);
+    }
+    .three {
+        background-image: url(../img/three-s.jpg);
+    }
+    .four {
+        background-image: url(../img/four-s.jpg);
+    }
+    .left {
+        width: 500px;
+    }
 }
